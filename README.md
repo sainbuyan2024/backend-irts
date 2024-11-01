@@ -34,6 +34,13 @@ git add .
 git status
 ```
 
+5. git рүү оруулахдаа comment бичиж оруулдаг. 
+
+```
+git commit -m"Тайлбар"
+
+git status
+```
 
 
 git commit -m "first commit"
