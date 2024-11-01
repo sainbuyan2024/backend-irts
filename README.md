@@ -42,8 +42,22 @@ git commit -m"Тайлбар"
 git status
 ```
 
+6. Хэрвээ branch-ийг солих гэж байгаа бол дараах командыг өгнө. Үндсэн branch  нь голдуу main байдаг
 
-git commit -m "first commit"
+```
 git branch -M main
-git remote add origin https://github.com/sainbuyan2024/backend-irts.git
+```
+
+7. git-ийн тохиргоо хийж өгөх
+    * Тохиргоог харахдаа ```git config --list ```
+    * Тохиргооны мэдээллээс гарахдаа "Q" үсэг дээр дарж гарна.
+    * Өөрчлөлт хийх хэрэглэгчийн нэрийг тохируулах 
+    ``` git config --global user.name "FIRST_NAME LAST_NAME" ```
+    * Өөрчлөлт хийх хэрэглэгчийн и-мэйл тохируулах ``` git config --global user.email "MY_NAME@example.com"```
+    * github-тай холбох ```  git remote add origin https://github.com/sainbuyan2024/backend-irts.git ```
+
+8. Өгөгдлийг github руу хуулах үйлдэл
+
+```
 git push -u origin main
+```
